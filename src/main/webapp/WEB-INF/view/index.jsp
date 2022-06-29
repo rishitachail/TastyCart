@@ -20,13 +20,10 @@
 		</ol>
 		<div class="carousel-inner" style="width: 100%">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="resources/images/car1.jpeg" alt="First slide">
+				<img class="d-block w-100" src="resources/images/carousal.jpeg" alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="resources/images/car2.jpeg" alt="Second slide">
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="resources/images/car3.jpeg" alt="Third slide">
+				<img class="d-block w-100" src="resources/images/carousal.jpeg" alt="Second slide">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -59,7 +56,7 @@
          <div class="col-md-2 " >
              <div class="list-group mt-4">
                  
-                 <a href="category?categoryId=0" class="list-group-item list-group-item-action  active"  style="border:#5bccf6" >All Categories</a>
+                 <a href="category?categoryId=0" class="list-group-item list-group-item-action active"  style="background-color: #fcde67" ><span class="text-color">All Categories</span></a>
                <%
                     for(Category c: categories)
                     {    	

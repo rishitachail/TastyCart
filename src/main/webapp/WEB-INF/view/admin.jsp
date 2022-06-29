@@ -122,7 +122,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white">
-					<h5 class="modal-title" id="exampleModalLongTitle">Fill
+					<h5 class="modal-title text-color" id="exampleModalLongTitle">Fill
 						category details.</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
@@ -143,7 +143,7 @@
 						</div>
 
 						<div class="container text-center">
-							<button class="btn custom-bg text-white">Add Category</button>
+							<button class="btn custom-bg text-color">Add Category</button>
 							<button type="button" class="btn btn-secondary"
 								data-dismiss="modal">Close</button>
 						</div>
@@ -164,7 +164,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white">
-					<h5 class="modal-title" id="exampleModalLongTitle">Add Food
+					<h5 class="modal-title text-color" id="exampleModalLongTitle">Add Food
 						details.</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
@@ -213,7 +213,7 @@
 						</div>
 
 						<div class="container text-center">
-							<button class="btn custom-bg text-white">Add Food</button>
+							<button class="btn custom-bg text-color">Add Food</button>
 							<button type="button" class="btn btn-secondary"
 								data-dismiss="modal">Close</button>
 						</div>
@@ -233,7 +233,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white text-center">
-					<h5 class="modal-title" id="exampleModalLongTitle">Total
+					<h5 class="modal-title text-color" id="exampleModalLongTitle">Total
 						Users</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
@@ -244,7 +244,7 @@
 					<div class="table-responsive">
 						<table class="table">
 							<thead class="custom-bg text-white">
-								<tr>
+								<tr class="text-color">
 									<th scope="col">User Id</th>
 									<th scope="col">First Name</th>
 									<th scope="col">Last Name</th>
@@ -287,7 +287,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white text-center">
-					<h5 class="modal-title" id="exampleModalLongTitle">Total
+					<h5 class="modal-title text-color" id="exampleModalLongTitle">Total
 						Category</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
@@ -298,7 +298,7 @@
 					<div class="table-responsive">
 						<table class="table">
 							<thead class="custom-bg text-white">
-								<tr>
+								<tr class="text-color">
 									<th scope="col">Category Id</th>
 									<th scope="col">Category Name</th>
 									<th scope="col">Category Description</th>
@@ -339,7 +339,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white text-center">
-					<h5 class="modal-title" id="exampleModalLongTitle">Total Food</h5>
+					<h5 class="modal-title text-color" id="exampleModalLongTitle">Total Food</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -349,7 +349,7 @@
 					<div class="table-responsive">
 						<table class="table">
 							<thead class="custom-bg text-white">
-								<tr>
+								<tr class="text-color">
 									<th scope="col">Food Name</th>
 									<th scope="col">Food Image</th>
 									<th scope="col">Food Description</th>
@@ -408,7 +408,7 @@
 		<div class="modal-dialog modal-lg modal-size" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white text-center">
-					<h5 class="modal-title" id="exampleModalLongTitle">TOTAL
+					<h5 class="modal-title text-color" id="exampleModalLongTitle">TOTAL
 						ORDERS</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
@@ -436,7 +436,7 @@
 					<div class="table-responsive">
 						<table class="table">
 							<thead class="custom-bg text-white">
-								<tr class="text-center">
+								<tr class="text-center text-color">
 									<th scope="col">Order Id</th>
 									<th scope="col">User Id</th>
 									<th scope="col">User Name</th>

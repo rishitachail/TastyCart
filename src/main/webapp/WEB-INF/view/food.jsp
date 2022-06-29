@@ -62,7 +62,7 @@
    <div class="row">
          <div class="col-md-2" >
              <div class="list-group mt-4">
-                 <a href="category?categoryId=0" class="list-group-item list-group-item-action active" style="border:#5bccf6">All Categories</a>
+                 <a href="category?categoryId=0" class="list-group-item list-group-item-action active" style="background-color: #fcde67"><span class="text-color">All Categories</span></a>
                <%
                    
                     for(Category c: categoryDao.findAll())
@@ -111,7 +111,7 @@
                                   <div class="form-group mx-sm-3 mb-2">
                                       <input type="number" class="form-control" name="quantity" placeholder="Quantity" required>
                                   </div>
-                                  <button type="submit" class="btn custom-bg text-white mb-2">Add To Cart</button>
+                                  <button type="submit" class="btn custom-bg text-color mb-2">Add To Cart</button>
                                </form>
                               
                               <%

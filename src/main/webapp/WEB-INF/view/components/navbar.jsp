@@ -82,7 +82,7 @@ OrderDao orderDao =context.getBean(OrderDao.class);
     
     <form class="form-inline my-2 my-lg-0" action="searchfood">
       <input class="form-control mr-sm-2" type="text" placeholder="Search Food" aria-label="Search" size="40" name="foodname">
-      <button type="submit" class="btn btn-light" style="color:#5bccf6"><b>Search</b></button>
+      <button type="submit" class="btn btn-light text-color"><b>Search</b></button>
     </form>
     
     
@@ -109,7 +109,7 @@ OrderDao orderDao =context.getBean(OrderDao.class);
            
              
              <li class="nav-item active text-color" data-toggle="modal" data-target=".logout-modal">
-               <a class="nav-link" href="#" ><b>Logout</b></a>
+               <a class="nav-link" href="#" ><b class="text-color">Logout</b></a>
              </li> 
               
                
@@ -295,7 +295,7 @@ OrderDao orderDao =context.getBean(OrderDao.class);
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
        <div class="modal-header custom-bg text-white text-center">
-        <h5 class="modal-title" id="exampleModalLongTitle" >About Us</h5>
+        <h5 class="modal-title text-color" id="exampleModalLongTitle" >About Us</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -317,7 +317,7 @@ OrderDao orderDao =context.getBean(OrderDao.class);
       </div>
       <div class="modal-footer">
        <div class="text-center">
-        <button type="button" class="btn custom-bg text-white" data-dismiss="modal">Close</button>
+        <button type="button" class="btn custom-bg text-color" data-dismiss="modal">Close</button>
        </div>
       </div>
     </div>
@@ -331,7 +331,7 @@ OrderDao orderDao =context.getBean(OrderDao.class);
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
        <div class="modal-header custom-bg text-white text-center">
-        <h5 class="modal-title" id="exampleModalLongTitle" >Contact Us</h5>
+        <h5 class="modal-title text-color" id="exampleModalLongTitle" >Contact Us</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -340,15 +340,15 @@ OrderDao orderDao =context.getBean(OrderDao.class);
         <div class="container text-center">
         <p style="font-size:23px;">
             <b>
-                <img src="resources/images/phone.png" style="width:27px;" alt="img">+91 XXXXXXXXX / +91 XXXXXXXX<br>
-                <img src="resources/images/mail.png" style="width:29px;" alt="img">xxxxxxx@gmail.com
+                <img src="resources/images/phonee.png" style="width:27px;" alt="img">+91 XXXXXXXXX / +91 XXXXXXXX<br>
+                <img src="resources/images/emaill.png" style="width:29px;" alt="img">xxxxxxx@gmail.com
             </b>
         </p>
         </div>
       </div>
       <div class="modal-footer">
        <div class="text-center">
-        <button type="button" class="btn custom-bg text-white" data-dismiss="modal">Close</button>
+        <button type="button" class="btn custom-bg text-color" data-dismiss="modal">Close</button>
        </div>
       </div>
     </div>
