@@ -58,15 +58,17 @@ public class UserController {
 	}
 	
 	@PostMapping("/forgetpassword")
-	public ModelAndView forgetpassword(@RequestParam("email") String email, @RequestParam("pass") String password,
-			@RequestParam("phone") String phone) {
+	public ModelAndView forgetpassword(@ModelAttribute User forgetPassDetail) {
 		ModelAndView mv = new ModelAndView();
 		
-		User user = userDao.findByEmailidAndMobileno(email, phone);
+		User user = userDao.findByEmailidAndMobileno(forgetPassDetail.getEmailid(), forgetPassDetail.getMobileno());
 		
 		if(user != null) {
-			user.setPassword(password);
+			user.setPassword(forgetPassDetail.getPassword());
 			userDao.save(user);
+			
+			mv.addObject("status", "Password Changed");
+			mv.setViewName("userlogin");
 		}
 		
 		else {

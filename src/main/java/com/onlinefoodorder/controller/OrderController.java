@@ -60,9 +60,10 @@ public class OrderController {
 	}
 	
 	@GetMapping("/myorder")
-	public ModelAndView goToMyOrder() {
+	public ModelAndView goToMyOrder(HttpSession session) {
+		User user = (User)session.getAttribute("active-user");
 		ModelAndView mv = new ModelAndView();
-		List<Orders> orders = orderDao.findAll(); 
+		List<Orders> orders = orderDao.findByUserId(user.getId());
 		mv.addObject("orders", orders);
 		mv.setViewName("myorder");
 		return mv;

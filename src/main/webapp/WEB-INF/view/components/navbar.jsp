@@ -369,25 +369,20 @@ OrderDao orderDao =context.getBean(OrderDao.class);
       </div>
       <div class="modal-body">
           <form action="forgetpassword" method="post">
-        
-         
-  <div class="form">
  
     <div class="form-group ">
       <label for="inputPassword4">Email</label>
-      <input type="email" class="form-control" id="email" name="email">
+      <input type="email" class="form-control" id="email" name="emailid">
     </div>
     <div class="form-group ">
       <label for="inputPassword4">Phone</label>
-      <input type="text" class="form-control" id="phone" name="phone">
+      <input type="text" class="form-control" id="phone" name="mobileno">
     </div>
     <div class="form-group">
       <label for="inputPassword4">New Password</label>
-      <input type="password" class="form-control" id="pass" name="pass" >
+      <input type="password" class="form-control" id="pass" name="password" >
     </div>
-    
-  </div>
- 
+
   <div class="container text-center">
        
        <input type="submit" class="btn custom-bg text-light" value="Change">

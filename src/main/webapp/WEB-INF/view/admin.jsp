@@ -497,7 +497,7 @@
 											<input type="hidden" name="orderId" value=<%=o.getOrderId()%>>
 
 											<div class="form-group mx-sm-3 mb-2">
-												<input type="text" class="form-control" name="deliveryDate"
+												<input type="date" class="form-control" name="deliveryDate"
 													placeholder="Delivery Date" size="85" required>
 											</div>
 											<div class="form-group mx-sm-3 mb-2">
