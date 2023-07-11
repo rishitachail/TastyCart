@@ -14,11 +14,13 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
 import com.onlinefoodorder.dao.FoodDao;
 import com.onlinefoodorder.model.Food;
 
@@ -28,6 +30,9 @@ public class FoodController {
 	
 	@Autowired
 	private FoodDao foodDao;
+	
+	@Value("${com.onlinefoodorder.image.folder.path}")
+	private String foodImageFolderPath;
 	
 	@PostMapping("/addfood")
 	public ModelAndView addProduct(HttpServletRequest request, HttpSession session) throws IOException, ServletException {
@@ -42,7 +47,7 @@ public class FoodController {
 		
 		String fileName=part.getSubmittedFileName();
 		
-		String uploadPath="C:\\Users\\admin\\Desktop\\project\\online-food-order\\src\\main\\webapp\\resources\\productpic\\"+fileName;
+		String uploadPath=foodImageFolderPath+fileName;
 		
 		try
 		{
@@ -97,7 +102,7 @@ public class FoodController {
 			
 			String fileName=part.getSubmittedFileName();
 			
-			String uploadPath="C:\\Users\\admin\\Desktop\\project\\online-food-order\\src\\main\\webapp\\resources\\productpic\\"+fileName;
+			String uploadPath=foodImageFolderPath+fileName;
 			
 			try
 			{
